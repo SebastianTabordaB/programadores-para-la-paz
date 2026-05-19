@@ -1,0 +1,13 @@
+Reflexión de la semana:
+¿Qué relación encuentras entre el uso responsable de la información en internet, 
+la participación ciudadana y la organización del trabajo técnico con herramientas como Git?
+
+Cuando usas la información de internet de manera responsable, 
+estás decidiendo no compartir noticias falsas y actuar con la verdad. 
+Esto se conecta directamente con la participación ciudadana, porque una sociedad bien informada toma mejores decisiones, 
+debate con respeto y construye una comunidad más fuerte. 
+Ahora, si llevamos ese mismo chip al mundo técnico, herramientas como Git hacen exactamente lo mismo pero con el código o los proyectos. 
+Git es como el registro civil de un trabajo: te obliga a ser transparente, a decir qué cambiaste, cuándo y por qué, 
+permitiendo que un equipo colabore en armonía sin destruir el esfuerzo del otro. 
+Al final, ya sea compartiendo un meme, votando o programando, todo se reduce a lo mismo: ser responsables, 
+colaborar con orden y aportar valor al grupo.
