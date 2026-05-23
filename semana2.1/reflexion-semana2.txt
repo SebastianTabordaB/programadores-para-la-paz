@@ -1,9 +1,0 @@
-Dominar la terminal permite automatizar tareas repetitivas y agilizar el flujo de trabajo significativamente.
-Proporciona un control total y directo sobre el sistema de archivos, sin las limitaciones de una interfaz gráfica.
-Es fundamental para gestionar proyectos eficientemente mediante herramientas de control de versiones como Git.
-Permite administrar servidores remotos y entornos de despliegue donde no existen ventanas ni ratón.
-Optimiza el consumo de recursos de la computadora, permitiendo trabajar con mayor velocidad de ejecución.
-Facilita la integración de scripts personalizados que organizan la estructura del código automáticamente.
-Ayuda a solucionar problemas complejos de permisos y rutas que las herramientas visuales suelen ocultar.
-Es una habilidad universal que funciona de manera muy similar en Windows, Linux y macOS.
-En resumen, transforma a un programador en un profesional más autónomo, productivo y competitivo.
