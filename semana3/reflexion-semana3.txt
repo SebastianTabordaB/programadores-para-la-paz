@@ -1,0 +1,9 @@
+El uso de Git para mantener un registro de cambios es fundamental en el desarrollo de software 
+porque actúa como un historial de seguridad invaluable para el proyecto. 
+Esta bitácora permite experimentar con nuevas funcionalidades sin el temor de corromper el código base, 
+ya que siempre es posible regresar a una versión estable anterior si algo falla. 
+Además, facilita el trabajo colaborativo en equipo, permitiendo que múltiples desarrolladores 
+fusionen sus aportes de manera ordenada y resuelvan conflictos sin sobreescribir el trabajo de los demás. 
+Al registrar detalladamente quién, cuándo y por qué se realizó cada modificación, se optimiza la detección de errores y se agiliza el mantenimiento del sistema. 
+En conclusión, implementar el control de versiones transforma el caos de los archivos sueltos en un proceso de ingeniería transparente, 
+seguro, eficiente y altamente profesional.
