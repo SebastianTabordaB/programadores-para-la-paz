@@ -1,0 +1,8 @@
+Es clave que las comunidades creen sus propias herramientas con tecnologías abiertas como 
+Node.js porque les da total autonomía; ya no dependen de lo que decida una gran corporación ni de 
+pagar licencias carísimas. Al usar software libre, las iniciativas ciudadanas pueden meterle mano al 
+código y adaptarlo exactamente a lo que necesita su barrio o su grupo, manteniendo el control total 
+de sus datos. Además, Node.js tiene una comunidad gigante que comparte todo gratis, lo que hace 
+que aprender y armar proyectos sea mucho más accesible y colaborativo. Básicamente, permite que 
+la gente deje de ser solo consumidora y empiece a crear sus propias soluciones reales sin que el 
+presupuesto sea un freno.
