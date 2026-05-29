@@ -1,0 +1,32 @@
+
+EXPLICACIÓN DE LA RUTA POST /REPORTE
+
+
+
+1. ¿QUÉ HACE ESTA RUTA?
+
+Esta ruta utiliza el método HTTP POST para recibir información enviada por el usuario 
+desde el exterior (como un formulario o una aplicación) hacia el servidor. 
+
+Específicamente:
+- Escucha peticiones en la dirección URL '/reporte'.
+- Extrae un dato llamado 'mensaje' que viaja oculto dentro del cuerpo de la petición (req.body).
+- Responde de inmediato confirmando la recepción con un objeto en formato JSON que contiene 
+el estado ("Reporte recibido") y repite el mensaje que se acaba de enviar.
+
+
+
+
+2. ¿PARA QUÉ PODRÍA SERVIR EN UNA APLICACIÓN COMUNITARIA?
+
+En un contexto social o comunitario, una ruta de tipo POST como esta es fundamental porque 
+permite la participación activa de los ciudadanos. Algunos ejemplos reales de su uso serían:
+
+* Reportar incidentes comunitarios: Permitiría a los vecinos reportar un problema en el 
+barrio (por ejemplo: "Hay un bache en la calle principal" o "Se dañó una luminaria").
+
+* Buzón de sugerencias o reclamos: Los miembros de la comunidad podrían enviar sus opiniones de forma digital directamente a los administradores.
+
+* Alertas de emergencia: Podría servir para que un usuario envíe una alerta rápida de asistencia a un comité de seguridad vecinal.
+
+* Registro de solicitudes de ayuda: Permitiría a las personas solicitar recursos, donaciones o inscribirse a proyectos comunitarios enviando sus datos.

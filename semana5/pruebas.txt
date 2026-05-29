@@ -1,0 +1,8 @@
+1. Con la ruta: http://localhost:3000
+	Muestra una pagina con el mensaje: "Servidor activo"
+
+2. Con la ruta: http://localhost:3000/saludo
+	Muestra una pagina con el mensaje: "Hola comunidad"
+
+3. Con la ruta: http://localhost:3000/mensaje/juan
+	Muestra una pagina con el mensaje: "Hola juan"
