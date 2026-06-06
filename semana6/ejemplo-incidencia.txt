@@ -1,0 +1,17 @@
+ejemplo JSON:
+
+{
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+
+se envió la nueva petición a la ruta:
+http://localhost:3000/incidencia
+
+Al enviar la petición POST a la nueva ruta '/incidencia', 
+el servidor procesa exitosamente el JSON del ciudadano. 
+El backend captura las variables 'tipo' y 'descripcion' 
+recibidas en el cuerpo de la solicitud y responde con un objeto 
+JSON que confirma el éxito de la operación mediante el 
+mensaje "Incidencia registrada", devolviendo los datos capturados 
+para validar el registro.
