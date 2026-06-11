@@ -1,0 +1,18 @@
+Explicación de la consulta GET a /reportes
+
+Al realizar una petición HTTP GET a la ruta http://localhost:3000/reportes, sucede lo siguiente:
+
+1. El servidor Express intercepta la solicitud y ejecuta el bloque de código 'app.get('/reportes', ...)'.
+2. El servidor accede a la variable global 'reportes', la cual funciona como un almacenamiento temporal en la memoria RAM.
+3. Como previamente se realizó una petición POST con éxito, el arreglo 'reportes' ya contiene el objeto del reporte registrado (con el id, tipo y descripcion).
+4. El servidor responde al cliente transformando ese arreglo al formato JSON mediante la instrucción 'res.json(reportes)' con un estado HTTP 200 OK.
+
+Respuesta obtenida en el cliente:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+

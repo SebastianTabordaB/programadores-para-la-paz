@@ -1,0 +1,9 @@
+La implementación de una plataforma tecnológica para registrar y consultar reportes 
+ciudadanos es fundamental porque democratiza la participación y agiliza la comunicación 
+entre la comunidad y las autoridades. Al centralizar las incidencias en un sistema digital, 
+se eliminan los procesos burocráticos lentos, permitiendo que cualquier problema de 
+infraestructura o servicios públicos sea notificado en tiempo real. 
+Asimismo, la transparencia que ofrece la opción de consultar los reportes existentes fomenta la rendición de cuentas, 
+ya que los vecinos pueden auditar el estado y avance de las soluciones. Esto no solo optimiza la gestión y distribución 
+de los recursos municipales hacia las zonas más afectadas, sino que también empodera a los ciudadanos, 
+transformándolos en agentes activos del cambio y mejorando significativamente la calidad de vida y la seguridad en el entorno comunitario.
