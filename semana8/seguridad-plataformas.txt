@@ -1,0 +1,5 @@
+1. Control de acceso basado en roles (RBAC) para limitar privilegios.
+2. Autenticación de Doble Factor (2FA) obligatoria para administradores.
+3. Cifrado de datos en tránsito (HTTPS) y contraseñas con hashing.
+4. Sanitización de entradas de texto para evitar inyección de código malicioso.
+5. Respaldos automáticos periódicos almacenados en una ubicación aislada.

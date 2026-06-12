@@ -1,0 +1,3 @@
+1. Desconfiar de correos o mensajes sospechosos (Phishing) y verificar siempre el remitente antes de hacer clic en enlaces.
+2. Hacer copias de seguridad (backups) periódicas de los archivos importantes en discos externos o nubes seguras.
+3. Evitar conectarse a redes Wi-Fi públicas abiertas para realizar transferencias bancarias o iniciar sesión en cuentas críticas.

@@ -1,0 +1,9 @@
+La seguridad digital es el pilar que sostiene la confianza en cualquier plataforma comunitaria o participativa, 
+ya que resguarda la privacidad de personas reales que interactúan en ella. Sin protecciones robustas, 
+los datos personales de los miembros quedan expuestos a filtraciones, lo que puede provocar suplantaciones de identidad, 
+acoso o fraudes que destruyen el tejido social del grupo. Además, un ataque cibernético como la inyección de código 
+malicioso o el secuestro del servidor podría alterar encuestas, manipular votaciones o borrar meses de organización colectiva. 
+Garantizar conexiones seguras y un control estricto de accesos evita que actores externos saboteen los procesos de toma de decisiones. 
+En definitiva, blindar tecnológicamente estos espacios no es solo una medida técnica, sino un requisito democrático fundamental 
+para mantener un entorno libre, transparente y seguro donde la comunidad pueda colaborar sin 
+temor a represalias o pérdidas de información.
