@@ -1,0 +1,9 @@
+La estabilidad y la seguridad de un servidor son los pilares fundamentales para garantizar la 
+confianza y la cohesión dentro de cualquier comunidad digital. Cuando una plataforma funciona de manera estable, 
+se asegura que los usuarios puedan acceder a la información, servicios o herramientas comunitarias en el momento 
+en que lo necesiten, evitando interrupciones que congelen la colaboración o el aprendizaje. Por otro lado, 
+la seguridad protege los datos compartidos, la privacidad de los integrantes y los recursos del proyecto 
+frente a accesos no autorizados o ataques maliciosos. Un servidor confiable no solo previene la pérdida de trabajo valioso, 
+sino que también construye un entorno digital seguro donde las personas interactúan con tranquilidad. 
+En definitiva, mantener una infraestructura sólida es clave para que la tecnología sea una verdadera solución de apoyo 
+y no una fuente constante de fallas o vulnerabilidades.

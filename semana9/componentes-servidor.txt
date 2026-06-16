@@ -1,0 +1,24 @@
+Sistema operativo
+Es el software base que administra todo el hardware de tu máquina (procesador, memoria, almacenamiento). 
+En este ejercicio, se encarga de asignar los recursos necesarios para que la terminal, Node.js y el 
+puerto de red puedan interactuar correctamente.
+
+Node.js
+Es un entorno de ejecución que permite ejecutar código JavaScript directamente en tu computadora, 
+fuera del navegador web. Su función principal aquí es interpretar tu archivo de código y transformarlo 
+en un proceso activo del sistema capaz de manejar redes.
+
+Aplicación server.js
+Es el script o archivo de código que programaste utilizando Express. 
+Su función es definir la lógica de tu API comunitaria, especificando qué rutas existen (/ y /estado) 
+y qué respuestas exactas debe enviar el servidor cuando alguien las visita.
+
+Puerto
+Es un canal virtual o punto de conexión específico (en este caso, el 3000) dentro de tu red local. 
+Funciona como una "puerta" de entrada exclusiva que el sistema operativo le asigna a tu aplicación para 
+recibir y responder las peticiones del navegador sin interferir con otros programas.
+
+Logs
+Son los registros de texto o mensajes que la aplicación genera para informar sobre su estado o actividad. 
+En tu ejercicio, el mensaje "Servidor ejecutándose en puerto 3000" es un log que te confirma en tiempo real 
+que el código inició su marcha con éxito.
