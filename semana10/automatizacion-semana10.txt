@@ -1,0 +1,32 @@
+================================================================================
+DISEÑO DE AUTOMATIZACIÓN DE VEEDURÍA COMUNITARIA (n8n + TELEGRAM)
+================================================================================
+
+1. ¿Qué evento activa el flujo? (Trigger)
+--------------------------------------------------------------------------------
+Evento: Nuevo reporte registrado en la base de datos de la plataforma comunitaria.
+Descripción: Cuando un ciudadano completa el formulario web e inserta de manera exitosa una nueva incidencia (por ejemplo, el mal estado de una vía) en la base de datos (PostgreSQL, Supabase o similar), el nodo Webhook o el nodo de escucha de la base de datos en n8n activa inmediatamente la ejecución del flujo.
+
+2. ¿Qué mensaje se enviaría a Telegram? (Acción)
+--------------------------------------------------------------------------------
+Acción: Enviar mensaje (Send Message) a través del nodo de Telegram a un canal o grupo privado de veedores coordinadores.
+
+Mensaje Formateado:
+⚠️ *NUEVO REPORTE DE VEEDURÍA RECIBIDO*
+• 📂 *Categoría:* {{$json.categoria}}
+• 📍 *Sector/Barrio:* {{$json.barrio}}
+• 📝 *Descripción corta:* {{$json.descripcion_resumen}}
+• 🔗 *Enlace de revisión:* https://veeduria-comunitaria.org/admin/dashboard
+
+_Por favor, ingresar al panel administrativo para evaluar el caso y asignar un veedor técnico._
+
+3. ¿Qué información no debería enviarse por seguridad? (Restricciones y Privacidad)
+--------------------------------------------------------------------------------
+Por estrictas políticas de protección de datos personales (Ley 1581 de 2012 / RGPD) y para mitigar riesgos de seguridad o represalias contra los denunciantes, BAJO NINGUNA CIRCUNSTANCIA se debe enviar a través de Telegram la siguiente información:
+
+* Datos de Identidad del Ciudadano: Nombres completos, apellidos, número de cédula o documento de identidad.
+* Datos de Contacto Directo: Números de teléfono móvil, correos electrónicos personales o la dirección residencial exacta del denunciante.
+* Credenciales de Acceso: Claves, tokens de autenticación o datos técnicos del backend.
+* Datos Sensibles complementarios: Comentarios privados con acusaciones directas a personas específicas sin verificar, o archivos adjuntos que expongan rostros o placas de vehículos si no han sido previamente procesados o anonimizados para el canal público.
+
+Telegram es un canal de mensajería externa de notificación rápida, por lo que solo debe transportar metadatos operativos y un enlace seguro que obligue al veedor a autenticarse en el sistema oficial para ver el caso completo.

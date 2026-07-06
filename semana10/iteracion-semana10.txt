@@ -1,0 +1,26 @@
+1. ¿Qué 2 tareas del backlog harías primero?
+--------------------------------------------------------------------------------
+Las dos primeras historias de usuario que seleccionaría para el desarrollo inmediato son:
+
+* Historia 1: "Como ciudadano quiero reportar el mal estado de una vía pública adjuntando fotos para que la veeduría comunitaria pueda auditar la gestión de la alcaldía."
+* Historia 2: "Como veedor comunitario quiero clasificar las denuncias ciudadanas por categorías (infraestructura, servicios públicos, salud) para asignar prioridades de revisión de forma eficiente."
+
+2. ¿Por qué son las más importantes?
+--------------------------------------------------------------------------------
+Estas dos tareas constituyen el núcleo funcional básico (el Producto Mínimo Viable o MVP) de una solución de veeduría y control comunitario:
+
+* La primera es la base de todo el sistema: sin la capacidad de capturar los reportes, fotos y evidencias por parte de los ciudadanos, la plataforma no tendría datos con los cuales operar. Representa el canal directo de participación ciudadana.
+* La segunda complementa a la primera al darle orden, estructura y una ruta de atención a esa información. Sin la clasificación y asignación por categorías, los reportes acumulados se convertirían en un buzón desorganizado, perdiendo efectividad ante la comunidad y los entes de control.
+
+3. ¿Qué significa para ti que una tarea esté “terminada”?
+--------------------------------------------------------------------------------
+Para mí, que una tarea esté realmente "terminada" (Done) significa que no solo se ha escrito el código correspondiente, sino que la funcionalidad es completamente operativa, estable, segura y aporta valor real al usuario sin dejar cabos sueltos que puedan comprometer la experiencia o la integridad del sistema. No es solo "programar", es garantizar calidad y disponibilidad.
+
+Definición de Terminado (DoD - Definition of Done):
+--------------------------------------------------------------------------------
+Una funcionalidad se considera oficialmente terminada cuando cumple rigurosamente con los siguientes 4 criterios:
+
+1. Funciona correctamente: El código compila sin errores y cumple al 100% con los requerimientos y el valor esperado por el usuario en la historia.
+2. Fue probada: Se realizaron pruebas funcionales (y unitarias si aplica) que validan tanto el camino feliz como el manejo básico de errores, asegurando que no rompe componentes existentes.
+3. Quedó registrada en Git: El código se encuentra debidamente subido al repositorio en la rama correspondiente (por ejemplo, main o develop) mediante un commit claro, estructurado y con un Pull Request revisado si es necesario.
+4. Diseñada para producción: La interfaz es limpia, intuitiva y la lógica está lista para interactuar con datos reales de manera estable.

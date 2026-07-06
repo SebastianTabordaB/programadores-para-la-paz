@@ -1,0 +1,14 @@
+1. Como ciudadano quiero reportar el mal estado de una vía pública adjuntando fotos para que la veeduría comunitaria pueda auditar la gestión de la alcaldía.
+   (Prioridad: Crítica - Es la funcionalidad central que alimenta todo el sistema de veeduría).
+
+2. Como veedor comunitario quiero clasificar las denuncias ciudadanas por categorías (infraestructura, servicios públicos, salud) para asignar prioridades de revisión de forma eficiente.
+   (Prioridad: Alta - Permite la gestión y organización operativa del volumen de reportes recibidos).
+
+3. Como ciudadano quiero recibir notificaciones por correo electrónico cuando el estado de mi reporte cambie para saber si las autoridades ya están respondiendo.
+   (Prioridad: Media-Alta - Mantiene el compromiso ciudadano y la transparencia del proceso).
+
+4. Como ciudadano quiero visualizar en un mapa interactivo el estado de los proyectos de obras públicas de mi barrio para hacer seguimiento al presupuesto invertido.
+   (Prioridad: Media - Aporta un gran valor visual y de transparencia, pero requiere más esfuerzo técnico).
+
+5. Como administrador de la plataforma comunitaria quiero exportar un reporte consolidado en PDF con todas las incidencias mensuales para presentarlo formalmente ante los entes de control.
+   (Prioridad: Baja/Deseable - Es una funcionalidad de cierre de ciclo y reportería que puede ejecutarse manualmente al inicio).
