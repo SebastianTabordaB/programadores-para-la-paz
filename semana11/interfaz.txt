@@ -1,0 +1,7 @@
+La pantalla principal mostrará una vista de causas disponibles organizada como una cuadrícula o feed público, permitiendo a cualquier visitante leer las propuestas comunitarias activas.
+
+En la parte superior o lateral, se ubicará un formulario para crear una causa, el cual solicitará únicamente los campos esenciales: título, descripción detallada y la meta de apoyos necesaria.
+
+Cada propuesta dentro del feed incluirá su propio contador de apoyos numérico y un botón interactivo para apoyar la causa, el cual cambiará de estado o color una vez que el usuario haga clic.
+
+Toda la interfaz mantendrá un enfoque minimalista y centrado en el usuario, asegurando una navegación fluida que proteja la privacidad al omitir datos sensibles en las secciones públicas.

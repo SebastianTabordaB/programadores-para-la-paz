@@ -1,0 +1,26 @@
+Entidad: Evento
+
+Campos principales:
+- id
+- titulo
+- descripcion
+- fecha_evento
+- lugar
+- capacidad_maxima
+
+Propósito:
+Registrar las actividades, asambleas o jornadas de voluntariado planificadas por la comunidad para que los usuarios puedan conocer los detalles de cuándo y dónde se realizarán.
+
+---
+
+Entidad: Asistencia
+
+Campos principales:
+- id
+- evento_id (relación con la entidad Evento)
+- usuario_id
+- estado_confirmacion (ej. Confirmado, Pendiente, Cancelado)
+- fecha_respuesta
+
+Propósito:
+Gestionar el listado de participantes que planean asistir a cada evento, permitiendo a los organizadores controlar el aforo y planificar la logística necesaria.

@@ -1,0 +1,8 @@
+El éxito de una herramienta digital de participación ciudadana depende por completo de la confianza que inspire a sus usuarios, 
+lo cual se sostiene en tres pilares técnicos. Primero, una base de datos robusta asegura que las propuestas y las interacciones 
+comunitarias se organicen y se mantengan disponibles de manera eficiente. 
+Segundo, la autenticación de usuarios es el único mecanismo  que garantiza que cada voto, firma o apoyo provenga de un 
+ciudadano real, previniendo fraudes o la alteración maliciosa de los resultados. 
+Por último, la estricta protección de la información resguarda la privacidad de los participantes, evitando que datos personales caigan en 
+manos equivocadas o sean expuestos públicamente. Sin estos componentes, el sistema perdería credibilidad, 
+vulneraría la seguridad de la comunidad y anularía el verdadero propósito de la colaboración democrática.

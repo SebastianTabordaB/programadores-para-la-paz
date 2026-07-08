@@ -1,0 +1,5 @@
+El login es el mecanismo de seguridad que valida la identidad de un usuario antes de permitirle interactuar con la plataforma. 
+Restringir el acceso a ciertas rutas es indispensable para proteger el panel de administración, el historial de cambios y las acciones restringidas. 
+La exposición pública de datos personales como identificaciones, correos, teléfonos o direcciones compromete gravemente la privacidad de los usuarios. 
+De igual forma, las credenciales de desarrollo, como tokens de sesión y llaves de API, deben permanecer ocultas para evitar hackeos. 
+Implementar este control asegura que cada miembro acceda únicamente a lo que le corresponde, manteniendo el entorno seguro.
