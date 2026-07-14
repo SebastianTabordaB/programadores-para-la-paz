@@ -1,0 +1,9 @@
+Durante este curso comprendí que la tecnología, cuando se diseña con un enfoque accesible y 
+transparente, actúa como un puente directo para amplificar la voz de la comunidad. 
+Herramientas como el sistema de "Petición en 3 Clics" demuestran que es posible simplificar 
+procesos democráticos complejos, permitiendo que cualquier ciudadano apoye causas locales 
+de manera ágil y segura. Aprendí también el valor de las automatizaciones con plataformas 
+como n8n y Telegram, las cuales facilitan una comunicación masiva en tiempo real sin descuidar 
+la privacidad de los datos personales. En conclusión, la tecnología no reemplaza la organización 
+comunitaria tradicional, sino que la potencia, estructurando las demandas colectivas en formatos 
+formales de manera eficiente para que sean escuchadas con mayor fuerza por las autoridades correspondientes.

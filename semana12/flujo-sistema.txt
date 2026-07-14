@@ -1,0 +1,22 @@
+Flujo de funcionamiento del sistema Petición en 3 Clics
+
+Pasos del sistema:
+1. El ciudadano ingresa a la plataforma web o móvil y se identifica de forma rápida y segura.
+
+2. El ciudadano crea una nueva causa o petición explicando claramente la problemática o propuesta.
+
+3. El sistema registra la causa en la base de datos de manera organizada y la publica para toda la comunidad.
+
+4. Otros ciudadanos exploran la plataforma y seleccionan la causa que les interesa respaldar.
+
+5. Con un solo clic, los ciudadanos interesados registran su apoyo o firma digital en la causa seleccionada.
+
+6. El sistema actualiza y cuenta en tiempo real todos los apoyos recolectados para esa petición.
+
+7. Al cumplirse el tiempo límite o alcanzar la meta de apoyos, el sistema cierra automáticamente la recolección de firmas.
+
+8. El sistema genera de forma automatizada un documento formal en formato PDF que contiene la petición detallada.
+
+9. El sistema anexa al PDF el consolidado de firmas o apoyos ciudadanos recolectados para darle validez legal.
+
+10. El sistema envía automáticamente el documento PDF con la petición formal a las autoridades o entidades correspondientes para su revisión y respuesta.

@@ -1,0 +1,42 @@
+Propuesta de Automatización - Sistema Petición en 3 Clics
+
+======================================================================
+1. HERRAMIENTA UTILIZADA
+======================================================================
+Plataforma: n8n integrada con un Bot de Telegram.
+
+======================================================================
+2. EVENTO QUE ACTIVA LA AUTOMATIZACIÓN (TRIGGER)
+======================================================================
+* Evento: "Nueva Causa Registrada en la Base de Datos".
+
+* Descripción técnica: Un nodo Webhook en n8n escucha en tiempo real o un nodo de base de datos detecta 
+una nueva inserción (Insert) en la tabla 'Causa'. En ese instante se activa el flujo.
+
+======================================================================
+3. MENSAJE ENVIADO (A UN CANAL PÚBLICO O DE MONITOREO DE TELEGRAM)
+======================================================================
+Mensaje:
+📢 ¡Nueva iniciativa ciudadana creada en la plataforma!
+
+📌 Título: [Título de la Causa]
+📝 Descripción corta: [Primeras 2 líneas de la descripción...]
+🗓 Fecha de publicación: [DD/MM/AAAA]
+
+¡Entra a la aplicación y apoya esta causa con un solo clic! 🚀
+
+======================================================================
+4. INFORMACIÓN QUE NO DEBE ENVIARSE POR SEGURIDAD (RESTRICCIONES DE PRIVACIDAD)
+======================================================================
+Por estricto cumplimiento de normativas de protección de datos personales (Habeas Data) y seguridad del sistema, bajo ninguna circunstancia se debe incluir en la notificación de Telegram:
+
+* Identificadores oficiales: Números de cédula, pasaportes o cualquier tipo de documento de identidad del ciudadano creador.
+
+* Datos de contacto directos: Números de teléfono móvil, fijos o direcciones de correo electrónico.
+
+* Ubicaciones privadas: Direcciones residenciales exactas o coordenadas del domicilio de los usuarios.
+
+* Credenciales de acceso: Nombres de usuario, tokens de sesión o contraseñas.
+
+* Comentarios sensibles o datos de categoría especial: Información de salud, opiniones políticas explícitas no relacionadas con la petición general, 
+o cualquier dato que vulnere la privacidad del autor.

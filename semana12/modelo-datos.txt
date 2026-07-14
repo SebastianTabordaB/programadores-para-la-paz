@@ -1,0 +1,41 @@
+Modelo de Datos Simple - Sistema Petición en 3 Clics
+
+=========================================
+1. ENTIDADES Y CAMPOS
+=========================================
+
+Entidad: Causa
+-----------------------------------------
+* id: Identificador único y numérico de la causa (Clave Primaria).
+* titulo: Nombre corto o encabezado descriptivo de la petición.
+* descripcion: Detalle completo de la problemática, justificación y propuesta de la causa.
+* fecha: Día y hora exacta en la que el ciudadano creó y publicó la causa.
+
+Entidad: Apoyo
+-----------------------------------------
+* id: Identificador único y numérico del registro de apoyo (Clave Primaria).
+* causa_id: Referencia al identificador de la causa que se está respaldando (Clave Foránea).
+* nombre: Nombre completo del ciudadano que decide firmar o apoyar la causa.
+* fecha: Día y hora exacta en la que el ciudadano otorgó su apoyo digital.
+
+
+=========================================
+2. EXPLICACIÓN DE LAS ENTIDADES
+=========================================
+
+* Entidad "Causa":
+Sirve para almacenar de forma estructurada todas las iniciativas, peticiones ciudadanas o propuestas 
+que los usuarios crean en la plataforma. Permite identificar de manera individual cada problemática planteada 
+y conservar su información principal (qué se pide y cuándo se creó) para que pueda ser expuesta públicamente a la comunidad.
+
+* Entidad "Apoyo":
+Sirve para registrar individualmente cada voto, firma o respaldo que los ciudadanos otorgan a las causas existentes. 
+Al estar vinculada directamente a una causa específica mediante el campo 'causa_id', permite al sistema llevar un control 
+preciso de qué ciudadanos apoyan qué iniciativas, facilitando la contabilidad en tiempo real y la posterior generación del listado de firmas en el PDF.
+
+
+=========================================
+3. RELACIÓN ENTRÉ ENTIDADES
+=========================================
+Existe una relación de Uno a Muchos (1:N) entre Causa y Apoyo. 
+Una "Causa" puede recibir muchos "Apoyos" de diferentes ciudadanos, pero un registro de "Apoyo" individual pertenece estrictamente a una sola "Causa".
